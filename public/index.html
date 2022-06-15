@@ -4,8 +4,31 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css">
+    <title>Ares - QKC Staking Mining</title>
+    <script>
+    var siteWidth = 1280;
+    var scale = screen.width /siteWidth;
+    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+    </script>
+    <style>
+    html {
+      overflow-y: auto!important;
+    }
+
+    body {
+      background-color: #101010;
+      font-weight: 700!important;
+    }
+
+    @media screen and (max-width: 1023px) {
+      html {
+        overflow-y: visible!important;
+      }
+    }
+    </style>
   </head>
   <body>
     <noscript>

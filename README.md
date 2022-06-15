@@ -1,4 +1,4 @@
-# ares-dashboard
+# qkcstaking-dashboard
 
 ## Project setup
 ```
